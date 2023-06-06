@@ -1,0 +1,128 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "audit:fix": {
+      "name": "audit:fix",
+      "command": "npm run audit:fix",
+      "runAtStart": false
+    },
+    "boot": {
+      "name": "boot",
+      "command": "npm run boot",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "clean:node": {
+      "name": "clean:node",
+      "command": "npm run clean:node",
+      "runAtStart": false
+    },
+    "deploy:prepare": {
+      "name": "deploy:prepare",
+      "command": "npm run deploy:prepare",
+      "runAtStart": false
+    },
+    "deploy:prepare:examples": {
+      "name": "deploy:prepare:examples",
+      "command": "npm run deploy:prepare:examples",
+      "runAtStart": false
+    },
+    "deploy:prepare:plugins": {
+      "name": "deploy:prepare:plugins",
+      "command": "npm run deploy:prepare:plugins",
+      "runAtStart": false
+    },
+    "deploy": {
+      "name": "deploy",
+      "command": "npm run deploy",
+      "runAtStart": false
+    },
+    "deploy:upstream": {
+      "name": "deploy:upstream",
+      "command": "npm run deploy:upstream",
+      "runAtStart": false
+    },
+    "license": {
+      "name": "license",
+      "command": "npm run license",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "npm run lint:fix",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "npm run postinstall",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "publish:prepare": {
+      "name": "publish:prepare",
+      "command": "npm run publish:prepare",
+      "runAtStart": false
+    },
+    "publish:manual": {
+      "name": "publish:manual",
+      "command": "npm run publish:manual",
+      "runAtStart": false
+    },
+    "publish:force": {
+      "name": "publish:force",
+      "command": "npm run publish:force",
+      "runAtStart": false
+    },
+    "publish:unpublishedOnly": {
+      "name": "publish:unpublishedOnly",
+      "command": "npm run publish:unpublishedOnly",
+      "runAtStart": false
+    },
+    "publish:checkVersions": {
+      "name": "publish:checkVersions",
+      "command": "npm run publish:checkVersions",
+      "runAtStart": false
+    },
+    "test:ghpages:beta": {
+      "name": "test:ghpages:beta",
+      "command": "npm run test:ghpages:beta",
+      "runAtStart": false
+    },
+    "test:ghpages": {
+      "name": "test:ghpages",
+      "command": "npm run test:ghpages",
+      "runAtStart": false
+    },
+    "npm install": {
+      "name": "npm install",
+      "command": "npm install",
+      "runAtStart": true
+    }
+  }
+}
